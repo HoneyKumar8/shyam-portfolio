@@ -1,11 +1,9 @@
-# Shyam's Portfolio
+# Shyam's Ocean-Themed Portfolio
 
-This is a modular, systems-oriented portfolio built with HTML, CSS, and JavaScript — hosted on GitHub Pages.
-
-## Sections
+An animated portfolio where each fish guides visitors through modular sections:
 - About Me
 - Tech Projects
 - Skincare & Habit Systems
 
 ## Live Site
-[Visit Portfolio](https://your-username.github.io/shyam-portfolio/)
+[Visit Portfolio](https://honeykumar8.github.io/shyam-portfolio/)
