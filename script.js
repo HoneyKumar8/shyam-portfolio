@@ -1,11 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Toggle Dark Mode
-  const toggleBtn = document.getElementById("toggle-theme");
-  toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("dark-mode");
+  const sections = {
+    "fish-about": "section-about",
+    "fish-projects": "section-projects",
+    "fish-routines": "section-routines"
+  };
+
+  Object.keys(sections).forEach(fishId => {
+    document.getElementById(fishId).addEventListener("click", () => {
+      Object.values(sections).forEach(sec => {
+        document.getElementById(sec).style.display = "none";
+      });
+      document.getElementById(sections[fishId]).style.display = "block";
+    });
   });
 
-  // Dynamic Year in Footer
-  const footerYear = document.getElementById("footer-year");
-  footerYear.textContent = `© ${new Date().getFullYear()} Shyam's Portfolio`;
+  document.getElementById("footer-year").textContent =
+    `© ${new Date().getFullYear()} Shyam's Portfolio`;
 });
