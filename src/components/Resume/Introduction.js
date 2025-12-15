@@ -150,7 +150,7 @@ const IntroHeader = styled.div`
     margin: 0;
   }
 `;
-
+const resumeUrl = `${process.env.PUBLIC_URL}/resume.pdf`;
 /* ---------------- Main component ---------------- */
 export default function Introduction({
   videoRef,
@@ -233,7 +233,7 @@ export default function Introduction({
           <div className="actions">
             <a
               className="btn open"
-              href="/resume.pdf"
+              href={resumeUrl}
               target="_blank"
               rel="noreferrer"
             >
@@ -242,8 +242,8 @@ export default function Introduction({
 
             <a
               className="btn download"
-              href="/resume.pdf"
-              download
+              href={resumeUrl}
+              download="S_Shyam_Kumar_Resume.pdf"
               aria-label="Download resume PDF"
             >
               Download

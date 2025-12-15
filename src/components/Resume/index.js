@@ -304,8 +304,7 @@ const builtBadges = explicitBadges;
         <a
           className="download"
           href={downloadHref}
-          target="_blank"
-          rel="noreferrer"
+          download="S_Shyam_Kumar_Resume.pdf"
           style={{
             background: "var(--accent)",
             color: "#fff",
@@ -335,7 +334,7 @@ const builtBadges = explicitBadges;
         <ResumeHeader
           title="Journey Through Learning & Impact"
           subtitle="My Development Story"
-          downloadHref="/resume.pdf"
+          downloadHref={`${process.env.PUBLIC_URL}/resume.pdf`}
         />
 
         {/* NOTE: reversed behaviour per your request:

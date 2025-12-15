@@ -125,7 +125,7 @@ export default function Hero() {
             </Desc>
 
             <Actions>
-              <Btn href="/resume.pdf" target="_blank" rel="noreferrer">Download Resume</Btn>
+              <Btn href={`${process.env.PUBLIC_URL}/resume.pdf`} download="S_Shyam_Kumar_Resume.pdf">Download Resume</Btn>
               <Btn ghost href="#contact">Contact Me</Btn>
             </Actions>
           </LeftCard>
