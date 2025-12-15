@@ -12,7 +12,6 @@ const Services = lazy(() => import('./components/Services'));
 const Resume = lazy(() => import('./components/Resume'));
 const Skills = lazy(() => import('./components/Skills'));
 const Projects = lazy(() => import('./components/Projects'));
-const Certifications = lazy(() => import('./components/Certifications'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
 

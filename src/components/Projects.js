@@ -1,10 +1,10 @@
 // src/components/Projects.js
 import React from 'react';
 import styled from 'styled-components';
-import habitImg from '../assets/images/habitTracker.jpg';
-import passwordImg from '../assets/images/passwordManager.jpg';
-import editorImg from '../assets/images/textEditor.jpg';
-import apiImg from '../assets/images/apiProject.jpg';
+import habitImg from '../assets/images/demo.png';
+import passwordImg from '../assets/images/demo.png';
+import editorImg from '../assets/images/demo.png';
+import apiImg from '../assets/images/demo.png';
 
 const Section = styled.section` padding:40px 0; `;
 const Grid = styled.div`
