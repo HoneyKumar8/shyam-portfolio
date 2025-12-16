@@ -114,6 +114,7 @@ const GlobalStyles = createGlobalStyle`
     background-attachment: fixed;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
   }
 
   a { color: inherit; text-decoration: none; }
@@ -149,6 +150,13 @@ const GlobalStyles = createGlobalStyle`
   }
 
   main { padding-bottom: 120px; } /* prevent footer overlap */
+
+  
+  /* ✅ FIX react-youtube iframe sizing */
+  .yt-iframe iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
 `;
 
 export default GlobalStyles;
