@@ -11,7 +11,7 @@ const fadeUp = keyframes`
 
 /* ---------- Layout Styles ---------- */
 const Section = styled.section`
-  padding: 64px 0;
+  padding: 0px;
 `;
 
 const Grid = styled.div`
@@ -88,16 +88,16 @@ const AccentBar = styled.div`
 
 /* ---------- Text + Blocks ---------- */
 const Title = styled.h2`
-  font-size: clamp(28px, 2vw, 36px);
+  font-size: clamp(18px, 1.6vw, 28px);
   color: var(--accent);
   margin-bottom: 16px;
 `;
 
 const Summary = styled.p`
   color: ${({ theme }) => (theme.name === "light" ? "#1b2836" : "var(--muted)")};
-  line-height: 1.7;
+  line-height: 1.4;
   margin-bottom: 14px;
-  font-size: clamp(18px, 2vw, 22px);
+  font-size: clamp(12px, 1.4vw, 18px);
 `;
 
 const Chips = styled.div`
@@ -113,6 +113,7 @@ const Chip = styled.span`
   border-radius: 999px;
   font-weight: 600;
   border: 1px solid ${({ theme }) => theme.glass};
+  font-size: clamp(8px, 1.4vw, 12px);
 `;
 
 const Blocks = styled.div`
@@ -135,22 +136,22 @@ const Block = styled.div`
 
   h4 {
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 14px;
     color: var(--text);
   }
 
   p {
     margin: 0;
     color: ${({ theme }) => theme.muted};
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 12px;
+    line-height: 1.4;
   }
 `;
 
 /* ---------- Action Buttons ---------- */
 const Actions = styled.div`
   display: flex;
-  gap: 12px;
+  gap: 18px;
   margin-top: 20px;
   flex-wrap: wrap;
 `;
@@ -182,14 +183,16 @@ export default function About() {
             <Title>About Me</Title>
 
             <Summary>
-             I’m Shyam, a full-stack developer with a strong interest in component architecture and clean code practices. I enjoy designing reusable UI systems, AI Tailored and AI Integrated applications, debugging efficiently, and improving application workflows through thoughtful structure. My recent work centers around React, state management patterns, and custom utilities inspired by real-world needs. I’m also building small, practical tools like trackers, dashboards, and secure utilities as I sharpen my problem-solving mindset.
+             I’m Shyam, a full-stack developer who focuses on building maintainable systems through clean architecture, reusable components and disciplined problem solving skills. I enjoy designing consistent UI patterns, debugging thoughtfully, and improving workflows through better tooling. Alongside full-stack development, I explore AI-assisted and agent-based approaches to build practical, automation-driven solutions aligned with real-world needs.
             </Summary>
 
             <Chips aria-hidden>
               <Chip>React.js</Chip>
               <Chip>AI / ML</Chip>
               <Chip>JavaScript</Chip>
+              <Chip>Python</Chip>
               <Chip>SQL</Chip>
+              <Chip>MongoDB</Chip>
               <Chip>Node.js</Chip>
               <Chip>AI Agents</Chip>
               <Chip>Kaggle Notebooks</Chip>
@@ -200,14 +203,14 @@ export default function About() {
               <Block>
                 <h4>Experience</h4>
                 <p>
-                  Hands on practice with React, styling systems, Git, and deploying real projects - focusing on writing clean, readable code and solving bugs logically.
+                  Hands on experience building and deploying real world web applications using React and modern styling systems. I focus on writing clean, readable code, structuring components for reuse, and debugging issues logically by understanding root causes rather than applying quick fixes. Comfortable using Git-based workflows and iterating on features based on practical constraints.
                 </p>
               </Block>
 
               <Block>
                 <h4>Learning</h4>
                 <p>
-                  Learning system design foundations, modern AI-agent patterns, reusable component design, cloud fundamentals, and productivity improvements through better tools and workflows.
+                  Continuously strengthening my understanding of system design fundamentals, scalable frontend architecture, and modern AI-agent workflows. I’m particularly interested in how better component design, tooling, and automation can improve developer productivity and application reliability as systems grow.
                 </p>
               </Block>
             </Blocks>
@@ -222,7 +225,7 @@ export default function About() {
                 Kaggle Profile →
               </a>
               <a
-                href="https://www.linkedin.com/in/shyam-kumar-surakattula-278ba826b"
+                href="https://www.linkedin.com/in/shyam-kumar-dev"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: "var(--accent)", fontWeight: 700 }}

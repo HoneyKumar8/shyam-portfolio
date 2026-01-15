@@ -126,8 +126,8 @@ const GlobalStyles = createGlobalStyle`
     padding: 0 20px;
   }
 
-  .section-sub { font-size: 22px; font-weight: 700; color: var(--accent); margin-bottom: 6px; letter-spacing: 1px; }
-  .section-head { font-size: clamp(28px, 4vw, 36px); font-weight: 800; margin-bottom: 22px; color: var(--text); }
+  .section-sub { font-size: 18px; font-weight: 700; color: var(--accent); margin-bottom: 6px; letter-spacing: 1px; }
+  .section-head { font-size: clamp(20px, 1.6vw, 22px); font-weight: 800; margin-bottom: 20px; color: var(--text); }
 
   .card {
     background: var(--surface);

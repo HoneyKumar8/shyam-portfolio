@@ -57,29 +57,29 @@ const Right = styled.div`
 
 const Sub = styled.p`
   color: ${({ theme }) => theme.muted};
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 0 8px;
 `;
 
 const Name = styled.h1`
-  font-size: clamp(42px, 4vw, 64px);
+  font-size: clamp(22px, 2vw, 42px);
   margin: 0 0 12px;
   color: var(--text);
   letter-spacing: 0.6px;
 `;
 
 const Title = styled.h2`
-  font-size: clamp(22px, 2vw, 28px);
+  font-size: clamp(14px, 2vw, 18px);
   color: var(--accent);
-  margin: 6px 0 18px;
+  margin: 6px 0 10px;
   font-weight: 700;
 `;
 
 const Desc = styled.p`
   max-width: 720px;
   color: var(--text);
-  line-height: 1.9;
-  font-size: clamp(18px, 1.4vw, 22px);
+  line-height: 1.6;
+  font-size: clamp(11px, 1.4vw, 18px);
   margin-bottom: 18px;
 `;
 
@@ -96,10 +96,10 @@ const Actions = styled.div`
 `;
 
 const Btn = styled.a`
-  padding: 12px 16px;
+  padding: 8px 12px;
   border-radius: 10px;
   display: inline-block;
-  font-size: clamp(18px, 2vw, 24px);
+  font-size: clamp(12px, 2vw, 18px);
   font-weight: 700;
   background: ${(p) => (p.ghost ? 'transparent' : 'var(--accent)')};
   color: ${(p) => (p.ghost ? 'var(--accent)' : '#fff')};
@@ -117,11 +117,10 @@ export default function Hero() {
           <LeftCard>
             <Sub>HELLO, I'M</Sub>
             <Name>S. SHYAM KUMAR</Name>
-            <Title>Versatile Full-Stack Developer</Title>
+            <Title>Full-Stack Developer</Title>
 
             <Desc>
-              Versatile full-stack developer with hands-on experience across frontend and backend technologies.
-              Proficient in JavaScript  , Python and building scalable web applications. Currently building a Habit Tracker and Password Manager.
+              Versatile Full‑stack developer passionate about transforming ideas into secure, scalable, and user‑focused digital products. Skilled in MERN, SQL, and Python, with projects ranging from habit tracking to password management that solve everyday challenges through clean code and thoughtful design. Driven by curiosity, I explore Agentic AI workflows to push boundaries in automation and intelligent systems, while delivering solutions that create measurable impact.
             </Desc>
 
             <Actions>

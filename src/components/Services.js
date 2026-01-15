@@ -1,10 +1,10 @@
 // src/components/Services.js
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { FaGlobe, FaPaintBrush, FaMobileAlt, FaCogs, FaCreditCard, FaChalkboardTeacher } from 'react-icons/fa';
+import { FaMagic, FaProjectDiagram, FaGlobe, FaPaintBrush, FaMobileAlt, FaCogs, FaCreditCard, FaChalkboardTeacher } from 'react-icons/fa';
 
 const Section = styled.section`
-  padding: 40px 0;
+  padding: 20px 0;
 `;
 
 /* keep using your page container so padding/width matches the rest of the site */
@@ -12,7 +12,7 @@ const Inner = styled.div`
   width: 100%;
   max-width: var(--container-width);
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
 `;
 
 const pop = keyframes`
@@ -117,7 +117,7 @@ const PrimaryCTA = styled.a`
   gap: 10px;
   background: ${({ theme }) => theme.accent};
   color: #fff;
-  padding: 12px 18px;
+  padding: 12px 16px;
   border-radius: 12px;
   font-weight: 700;
   text-decoration: none;
@@ -158,19 +158,20 @@ const Spacer = styled.div`
 
 export default function Services(){
   const data = [
-    {title:'Web Development', desc:'Modern, responsive websites and SPAs', icon:<FaGlobe/>},
-    {title:'UI/UX Design', desc:'User-focused interfaces and prototypes', icon:<FaPaintBrush/>},
-    {title:'App Development', desc:'Mobile and PWA development', icon:<FaMobileAlt/>},
-    {title:'API Design', desc:'Secure, scalable REST APIs', icon:<FaCogs/>},
-    {title:'Payment Integration', desc:'Payment gateways and flows', icon:<FaCreditCard/>},
-    {title:'Mentorship', desc:'Technical mentoring & upskilling', icon:<FaChalkboardTeacher/>},
+    {title:'Web Development', desc:'Responsive React apps with clean architecture', icon:<FaGlobe/>},
+    {title:'UI/UX Design', desc:'User-focused interfaces with practical usability', icon:<FaPaintBrush/>},
+    {title:'App Development', desc:'Frontend apps and PWAs built for performance', icon:<FaMobileAlt/>},
+    {title:'API Design', desc:'Clear, scalable REST APIs', icon:<FaCogs/>},
+    {title:'Integration', desc:'Secure authentication and data flow handling', icon:<FaCreditCard/>},
+    {title:'Mentorship', desc:'Knowledge sharing through projects and collaboration', icon:<FaChalkboardTeacher/>},
+    {title:'AI & Agentic Workflows', desc:'AI-assisted workflows and task automation', icon:<FaProjectDiagram/>},
   ];
 
   return (
     <Section id="services">
       <Inner>
         <p className="section-sub">I LIKE TO MAKE THINGS EASY AND FUN</p>
-        <h2 className="section-head">My Special Services For Business Development</h2>
+        <h2 className="section-head">What I Build & Work On</h2>
 
         <Grid as="div" role="list" aria-label="Services list">
           {data.map(s=>(

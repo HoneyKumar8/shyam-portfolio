@@ -15,7 +15,7 @@ const Nav = styled.header`
 const Inner = styled.div`
   max-width: 2400px;
   margin: 0 auto;
-  padding: 30px 46px;
+  padding: 10px 34px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +25,7 @@ const Inner = styled.div`
 /* Brand */
 const Brand = styled.a`
   font-family: "Pacifico", cursive;
-  font-size: clamp(18px, 1.6rem + 0.8vw, 42px);
+  font-size: clamp(16px, 1.6rem + 0.8vw, 28px);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -70,7 +70,7 @@ const Brand = styled.a`
   }
 
   @media (max-width: 640px) {
-    font-size: clamp(16px, 1.2rem + 1vw, 22px);
+    font-size: clamp(14px, 1.2rem + 1vw, 22px);
   }
 `;
 
@@ -90,7 +90,7 @@ const NavLinks = styled.nav`
     color: ${({ theme }) => theme.muted};
     padding: 8px 10px;
     border-radius: 8px;
-    font-size: clamp(20px, 0.5rem + 1.0vw, 42px);
+    font-size: clamp(14px, 0.5rem + 1.0vw, 28px);
     position: relative;
     transition: transform 0.22s ease, text-shadow 0.22s ease;
     background: transparent;
