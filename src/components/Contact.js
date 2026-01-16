@@ -8,13 +8,6 @@ import {
   FaPhone,
 } from "react-icons/fa";
 
-/*
-  Background image included from local path (you provided):
-  /mnt/data/6c6e72d5-8661-42ff-90dc-0a58af552b1a.png
-  The environment will transform this path to a usable URL for the site build.
-*/
-const BACKGROUND_IMAGE = '/mnt/data/6c6e72d5-8661-42ff-90dc-0a58af552b1a.png';
-
 const fadeUp = keyframes`
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
@@ -27,7 +20,6 @@ const toastIn = keyframes`
 
 const Section = styled.section`
   padding: 72px 0;
-  background-image: url('${BACKGROUND_IMAGE}');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -38,7 +30,6 @@ const Section = styled.section`
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(20,14,26,0.75), rgba(10,6,10,0.82));
     z-index: 0;
   }
 
