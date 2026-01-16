@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/shyam-portfolio/static/js/main.7b685e93.js",
+    "main.js": "/shyam-portfolio/static/js/main.32221a78.js",
     "static/js/671.951ea0db.chunk.js": "/shyam-portfolio/static/js/671.951ea0db.chunk.js",
     "static/js/941.fe71eed6.chunk.js": "/shyam-portfolio/static/js/941.fe71eed6.chunk.js",
     "static/js/253.54a7ef9d.chunk.js": "/shyam-portfolio/static/js/253.54a7ef9d.chunk.js",
     "static/js/292.04104844.chunk.js": "/shyam-portfolio/static/js/292.04104844.chunk.js",
-    "static/js/699.783bf3f8.chunk.js": "/shyam-portfolio/static/js/699.783bf3f8.chunk.js",
+    "static/js/699.b1d919ab.chunk.js": "/shyam-portfolio/static/js/699.b1d919ab.chunk.js",
     "static/js/52.e76c6297.chunk.js": "/shyam-portfolio/static/js/52.e76c6297.chunk.js",
-    "static/js/192.be2da60d.chunk.js": "/shyam-portfolio/static/js/192.be2da60d.chunk.js",
+    "static/js/192.69af0252.chunk.js": "/shyam-portfolio/static/js/192.69af0252.chunk.js",
     "static/js/834.e2eca239.chunk.js": "/shyam-portfolio/static/js/834.e2eca239.chunk.js",
     "static/js/580.81087eb0.chunk.js": "/shyam-portfolio/static/js/580.81087eb0.chunk.js",
-    "static/js/784.a4276d1f.chunk.js": "/shyam-portfolio/static/js/784.a4276d1f.chunk.js",
+    "static/js/784.e76cb9f8.chunk.js": "/shyam-portfolio/static/js/784.e76cb9f8.chunk.js",
     "static/media/SelfIntro.mp4": "/shyam-portfolio/static/media/SelfIntro.fba3c0cc2a13816e87a4.mp4",
     "static/media/NxtWave_XPM 4.0 Fundamentals.jpg": "/shyam-portfolio/static/media/NxtWave_XPM 4.0 Fundamentals.2a9feed0d9075a4f7273.jpg",
     "static/media/selfIntroPreview.jpg": "/shyam-portfolio/static/media/selfIntroPreview.ece8f2be910a88cf701c.jpg",
@@ -46,19 +46,19 @@
     "static/media/Credly_AWS Machine Learning.png": "/shyam-portfolio/static/media/Credly_AWS Machine Learning.c90fb7f98adf7e2f404f.png",
     "static/media/Credly_AWS Foundations.png": "/shyam-portfolio/static/media/Credly_AWS Foundations.c18f6d5933b81eec933e.png",
     "index.html": "/shyam-portfolio/index.html",
-    "main.7b685e93.js.map": "/shyam-portfolio/static/js/main.7b685e93.js.map",
+    "main.32221a78.js.map": "/shyam-portfolio/static/js/main.32221a78.js.map",
     "671.951ea0db.chunk.js.map": "/shyam-portfolio/static/js/671.951ea0db.chunk.js.map",
     "941.fe71eed6.chunk.js.map": "/shyam-portfolio/static/js/941.fe71eed6.chunk.js.map",
     "253.54a7ef9d.chunk.js.map": "/shyam-portfolio/static/js/253.54a7ef9d.chunk.js.map",
     "292.04104844.chunk.js.map": "/shyam-portfolio/static/js/292.04104844.chunk.js.map",
-    "699.783bf3f8.chunk.js.map": "/shyam-portfolio/static/js/699.783bf3f8.chunk.js.map",
+    "699.b1d919ab.chunk.js.map": "/shyam-portfolio/static/js/699.b1d919ab.chunk.js.map",
     "52.e76c6297.chunk.js.map": "/shyam-portfolio/static/js/52.e76c6297.chunk.js.map",
-    "192.be2da60d.chunk.js.map": "/shyam-portfolio/static/js/192.be2da60d.chunk.js.map",
+    "192.69af0252.chunk.js.map": "/shyam-portfolio/static/js/192.69af0252.chunk.js.map",
     "834.e2eca239.chunk.js.map": "/shyam-portfolio/static/js/834.e2eca239.chunk.js.map",
     "580.81087eb0.chunk.js.map": "/shyam-portfolio/static/js/580.81087eb0.chunk.js.map",
-    "784.a4276d1f.chunk.js.map": "/shyam-portfolio/static/js/784.a4276d1f.chunk.js.map"
+    "784.e76cb9f8.chunk.js.map": "/shyam-portfolio/static/js/784.e76cb9f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.7b685e93.js"
+    "static/js/main.32221a78.js"
   ]
 }
